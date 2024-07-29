@@ -45,7 +45,7 @@ country_pr = 'CN'
 # CELL ********************
 
 import duckdb
-
+# https://github.com/OvertureMaps/data/discussions/23#discussioncomment-7011246
 duckdb.sql("install spatial;load spatial;")
 duckdb.sql("install httpfs;load httpfs;")
 duckdb.sql("set s3_region='us-west-2';")
