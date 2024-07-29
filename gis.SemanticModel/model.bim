@@ -49,9 +49,9 @@
         ],
         "expression": [
           "let",
-          "    database = Sql.Database(\"XPKYMSTTIHXELP6VUO2W5YWT2U-CCRTFDZUKPTUNOW5D2Z2KSIIEE.datawarehouse.fabric.microsoft.com\", \"18d2c390-8b8c-4bf0-b057-73d92775db21\")",
+          "\tdatabase = Sql.Database(\"xpkymsttihxelp6vuo2w5ywt2u-ccrtfdzukptunow5d2z2ksiiee.datawarehouse.fabric.microsoft.com\", \"18d2c390-8b8c-4bf0-b057-73d92775db21\")",
           "in",
-          "    database"
+          "\tdatabase"
         ],
         "kind": "m",
         "lineageTag": "f4fcf42e-9666-4937-9ac1-8ffd4e7ffa48"

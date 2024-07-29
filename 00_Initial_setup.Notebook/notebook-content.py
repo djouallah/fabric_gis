@@ -87,7 +87,7 @@ for notebook_id_or_name in ["import_data_overturnmaps"] :
 
 # CELL ********************
 
-notebookutils.notebook.run("import_data_overturnmaps", 2000,{"country_pr": 'FR' })
+notebookutils.notebook.run("import_data_overturnmaps", 2000,{"country_pr": 'CN' })
 
 # METADATA ********************
 
