@@ -22,7 +22,7 @@
 
 # PARAMETERS CELL ********************
 
-country_pr = 'US'
+country_pr = 'CN'
 
 # METADATA ********************
 

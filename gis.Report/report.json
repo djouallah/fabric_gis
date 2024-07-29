@@ -1,9 +1,6 @@
 {
-  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.56\",\"type\":2}},\"activeSectionIndex\":2,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"visible\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.56\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"visible\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
   "layoutOptimization": 0,
-  "publicCustomVisuals": [
-    "iconMapV34089C0EB522B416294AA926F71B4FDBB"
-  ],
   "resourcePackages": [
     {
       "resourcePackage": {
@@ -28,78 +25,27 @@
       "filters": "[]",
       "height": 720.00,
       "name": "288566407ec8c917a033",
-      "ordinal": 2,
       "visualContainers": [
         {
-          "config": "{\"name\":\"3197530ab020e104c084\",\"layouts\":[{\"id\":0,\"position\":{\"x\":25.296863308668954,\"y\":87.56606529923869,\"z\":0,\"width\":1212.3035262539045,\"height\":581.8278560993859,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"azureMap\",\"projections\":{\"X\":[{\"queryRef\":\"overturemaps.X\"}],\"Y\":[{\"queryRef\":\"overturemaps.Y\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"overturemaps\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"X\"},\"Name\":\"overturemaps.X\",\"NativeReferenceName\":\"X\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"Y\"},\"Name\":\"overturemaps.Y\",\"NativeReferenceName\":\"Y\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"heatMapLayer\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"bubbleLayer\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "config": "{\"name\":\"3197530ab020e104c084\",\"layouts\":[{\"id\":0,\"position\":{\"x\":25.296863308668954,\"y\":0,\"z\":0,\"width\":1247.3299523736,\"height\":719.9876480159625,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"azureMap\",\"projections\":{\"X\":[{\"queryRef\":\"overturemaps.X\"}],\"Y\":[{\"queryRef\":\"overturemaps.Y\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"overturemaps\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"X\"},\"Name\":\"overturemaps.X\",\"NativeReferenceName\":\"X\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"Y\"},\"Name\":\"overturemaps.Y\",\"NativeReferenceName\":\"Y\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"heatMapLayer\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"heatMapColorHigh\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":9,\"Percent\":0}}}}},\"heatMapIntensity\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"heatMapRadiusUnit\":{\"expr\":{\"Literal\":{\"Value\":\"'pixels'\"}}},\"heatMapRadius\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}},\"heatMapColorCenter\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":8,\"Percent\":0.6}}}}}}}],\"bubbleLayer\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"referenceLayer\":[{\"properties\":{\"datasourceType\":{\"expr\":{\"Literal\":{\"Value\":\"'url'\"}}}}}]},\"vcObjects\":{\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Overtune Map'\"}}}}}]}}}",
           "filters": "[]",
-          "height": 581.83,
-          "width": 1212.30,
+          "height": 719.99,
+          "width": 1247.33,
           "x": 25.30,
-          "y": 87.57,
-          "z": 0.00
-        },
-        {
-          "config": "{\"name\":\"7bbba0e05645c410b0c9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":937.9298549829566,\"y\":19.45912562205304,\"z\":1,\"width\":299.6705345796168,\"height\":84.64719645593073,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"category.category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"category\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"category\"},\"Name\":\"category.category\",\"NativeReferenceName\":\"category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"selfFilter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"category\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Contains\":{\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"category\"}},\"Right\":{\"Literal\":{\"Value\":\"'bar'\"}}}},\"Annotations\":{\"PowerBI.MParameterBehavior\":1}}]}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"category\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"category\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'beach_bar'\"}}]]}}}]}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
-          "filters": "[]",
-          "height": 84.65,
-          "width": 299.67,
-          "x": 937.93,
-          "y": 19.46,
-          "z": 1.00
-        }
-      ],
-      "width": 1280.00
-    },
-    {
-      "config": "{\"visibility\":1}",
-      "displayName": "Page 1",
-      "displayOption": 1,
-      "filters": "[]",
-      "height": 720.00,
-      "name": "88027647cb05be2bdbdc",
-      "visualContainers": [
-        {
-          "config": "{\"name\":\"660129981295d687ba66\",\"layouts\":[{\"id\":0,\"position\":{\"x\":959.3348931672149,\"y\":44.75598893072199,\"z\":0,\"width\":279.2384526764611,\"height\":107.02519092129172,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"category.category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"category\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"category\"},\"Name\":\"category.category\",\"NativeReferenceName\":\"category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"category\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"category\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'college_university'\"}}]]}}}]}},\"selfFilter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"category\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Contains\":{\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"category\"}},\"Right\":{\"Literal\":{\"Value\":\"'univer'\"}}}},\"Annotations\":{\"PowerBI.MParameterBehavior\":1}}]}}}}]}}}",
-          "filters": "[]",
-          "height": 107.03,
-          "width": 279.24,
-          "x": 959.33,
-          "y": 44.76,
-          "z": 0.00
-        },
-        {
-          "config": "{\"name\":\"6bc30b145048740b1f09\",\"layouts\":[{\"id\":0,\"position\":{\"x\":33.08051355749017,\"y\":109.94405976459969,\"z\":3000,\"width\":1225.9249141893415,\"height\":569.1794244450514,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"iconMapV34089C0EB522B416294AA926F71B4FDBB\",\"projections\":{\"category\":[{\"queryRef\":\"overturemaps.id\",\"active\":true}],\"Size\":[{\"queryRef\":\"CountNonNull(overturemaps.wkt)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"overturemaps\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"wkt\"}},\"Function\":5},\"Name\":\"CountNonNull(overturemaps.wkt)\",\"NativeReferenceName\":\"Count of wkt\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"id\"},\"Name\":\"overturemaps.id\",\"NativeReferenceName\":\"id\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"wkt\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"points\":[{\"properties\":{\"icon\":{\"expr\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"overturemaps\"}},\"Property\":\"wkt\"}},\"Function\":3}}},\"showTooltip\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}},{\"properties\":{\"sizeBehaviour\":{\"expr\":{\"Literal\":{\"Value\":\"'Relative'\"}}}}}],\"controls\":[{\"properties\":{\"scale\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"lasso\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualTooltip\":[{\"properties\":{\"section\":{\"expr\":{\"Literal\":{\"Value\":\"'fecee8c8d51c96c5cb5a'\"}}}}}]}}}",
-          "filters": "[]",
-          "height": 569.18,
-          "width": 1225.92,
-          "x": 33.08,
-          "y": 109.94,
-          "z": 3000.00
-        }
-      ],
-      "width": 1280.00
-    },
-    {
-      "config": "{\"objects\":{\"displayArea\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Middle'\"}}}}}]},\"visibility\":1,\"type\":1}",
-      "displayName": "Page 2",
-      "displayOption": 3,
-      "filters": "[]",
-      "height": 100.00,
-      "name": "fecee8c8d51c96c5cb5a",
-      "ordinal": 1,
-      "visualContainers": [
-        {
-          "config": "{\"name\":\"514e1700173016682950\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":492,\"height\":87,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"overturemaps.id\"},{\"queryRef\":\"overturemaps.name\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"overturemaps\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"id\"},\"Name\":\"overturemaps.id\",\"NativeReferenceName\":\"id\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"name\"},\"Name\":\"overturemaps.name\",\"NativeReferenceName\":\"name\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}},\"selector\":{\"metadata\":\"overturemaps.id\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"481D\"}}}},\"selector\":{\"metadata\":\"overturemaps.name\"}}],\"columnHeaders\":[{\"properties\":{\"wordWrap\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"autoSizeColumnWidth\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"values\":[{\"properties\":{\"wordWrap\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"grid\":[{\"properties\":{\"gridHorizontal\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'None'\"}}}}}]}}}",
-          "filters": "[]",
-          "height": 87.00,
-          "width": 492.00,
-          "x": 0.00,
           "y": 0.00,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"7bbba0e05645c410b0c9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":511.96514398529513,\"y\":23.42324188168017,\"z\":1000,\"width\":230.8862414051331,\"height\":84.76982776227109,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"category.category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"category\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"category\"},\"Name\":\"category.category\",\"NativeReferenceName\":\"category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"category\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"category\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'college_university'\"}}]]}}}]}},\"selfFilter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"category\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Contains\":{\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"category\"}},\"Right\":{\"Literal\":{\"Value\":\"'uni'\"}}}},\"Annotations\":{\"PowerBI.MParameterBehavior\":1}}]}}}}],\"selection\":[{\"properties\":{\"singleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 84.77,
+          "width": 230.89,
+          "x": 511.97,
+          "y": 23.42,
+          "z": 1000.00
         }
       ],
-      "width": 320.00
+      "width": 1280.00
     }
   ]
 }
