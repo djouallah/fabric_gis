@@ -1,0 +1,270 @@
+{
+  "compatibilityLevel": 1604,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.132.7371.1 (Main)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"DatabaseQuery\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"WebModelingEdit\"]"
+      }
+    ],
+    "collation": "Latin1_General_100_BIN2_UTF8",
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "DatabaseQuery",
+        "annotations": [
+          {
+            "name": "PBI_IncludeFutureArtifacts",
+            "value": "False"
+          }
+        ],
+        "expression": [
+          "let",
+          "    database = Sql.Database(\"XPKYMSTTIHXELP6VUO2W5YWT2U-CCRTFDZUKPTUNOW5D2Z2KSIIEE.datawarehouse.fabric.microsoft.com\", \"18d2c390-8b8c-4bf0-b057-73d92775db21\")",
+          "in",
+          "    database"
+        ],
+        "kind": "m",
+        "lineageTag": "f4fcf42e-9666-4937-9ac1-8ffd4e7ffa48"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "1237a716-5676-5a03-50b3-66413cc7dc22",
+        "fromColumn": "category",
+        "fromTable": "overturemaps",
+        "relyOnReferentialIntegrity": true,
+        "toColumn": "category",
+        "toTable": "category"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "overturemaps",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "85266308-14d9-4f4b-b8e5-869d76794278",
+            "sourceColumn": "name",
+            "sourceLineageTag": "name",
+            "sourceProviderType": "varchar(8000)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "019ef034-b0ae-4806-8126-d82af648bf2b",
+            "sourceColumn": "category",
+            "sourceLineageTag": "category",
+            "sourceProviderType": "varchar(8000)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "wkt",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b5ec697c-7a36-4f68-b9cf-a2a1302c960f",
+            "sourceColumn": "wkt",
+            "sourceLineageTag": "wkt",
+            "sourceProviderType": "varchar(8000)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "X",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataCategory"
+              },
+              {
+                "property": "SummarizeBy"
+              }
+            ],
+            "dataCategory": "Longitude",
+            "dataType": "double",
+            "lineageTag": "b15bddf2-6a4b-4f14-ab9a-19e4b6bcc0ad",
+            "sourceColumn": "X",
+            "sourceLineageTag": "X",
+            "sourceProviderType": "float",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Y",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataCategory"
+              },
+              {
+                "property": "SummarizeBy"
+              }
+            ],
+            "dataCategory": "Latitude",
+            "dataType": "double",
+            "lineageTag": "7345e985-834d-4b04-b53d-d23c40a536fc",
+            "sourceColumn": "Y",
+            "sourceLineageTag": "Y",
+            "sourceProviderType": "float",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ae34c656-cd57-4930-9b23-4944e55f6e8e",
+            "sourceColumn": "id",
+            "sourceLineageTag": "id",
+            "sourceProviderType": "varchar(8000)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b501a0d2-5902-4940-8dea-ac5eb801e89b",
+            "sourceColumn": "country",
+            "sourceLineageTag": "country",
+            "sourceProviderType": "varchar(8000)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "0fe933ca-16a6-4ede-8985-28b45ab30e0e",
+        "partitions": [
+          {
+            "name": "overturemaps",
+            "mode": "directLake",
+            "source": {
+              "entityName": "overturemaps",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "dbo",
+              "type": "entity"
+            }
+          }
+        ],
+        "sourceLineageTag": "[dbo].[overturemaps]"
+      },
+      {
+        "name": "category",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "984e30cb-c39e-42d3-841d-aede386c8b32",
+            "sourceColumn": "category",
+            "sourceLineageTag": "category",
+            "sourceProviderType": "varchar(8000)",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2891ed08-fb89-4b83-a3c9-061a0f0e84e7",
+        "partitions": [
+          {
+            "name": "category",
+            "mode": "directLake",
+            "source": {
+              "entityName": "category",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "dbo",
+              "type": "entity"
+            }
+          }
+        ],
+        "sourceLineageTag": "[dbo].[category]"
+      }
+    ]
+  }
+}
